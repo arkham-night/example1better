@@ -79,3 +79,9 @@
     mix-blend-mode: difference;
   }
 }
+
+@layer utilities {
+  .border-border {
+    border-color: #d1d5db;
+  }
+}
