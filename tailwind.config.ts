@@ -7,6 +7,11 @@ export default {
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
   ],
+  safelist: [
+    'bg-creative-dark',
+    'text-creative-gray',
+    // Add any additional classes you use via @apply
+  ],
   theme: {
     container: {
       center: true,
